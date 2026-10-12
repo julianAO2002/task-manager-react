@@ -1,5 +1,8 @@
 # TP5 - Task React
 
+Resolución del TP5 de **Programación Avanzada 2026** (Licenciatura en Sistemas de
+Información - FCyT, UADER). Consigna original: [`docs/consigna-TP5.pdf`](docs/consigna-TP5.pdf).
+
 Manejador de tareas de proyectos de software: un formulario en **React + Vite** para
 cargar tareas, el componente **"Listado de Tareas"** para verlas y las acciones
 **Editar**, **Eliminar** y **Finalizar**. Los datos persisten en **PostgreSQL** y los
@@ -24,7 +27,7 @@ un único origen y no hace falta configurar CORS.
 ## Estructura
 
 ```
-task-manager/
+task-manager-react/
 ├── backend/
 │   ├── server.js          # Rutas REST /api/tasks
 │   ├── validation.js      # Reglas de negocio de una tarea
@@ -42,6 +45,7 @@ task-manager/
 │   ├── vite.config.js     # Proxy /api para desarrollo local
 │   └── Dockerfile         # Build con Node, imagen final con nginx
 ├── db/init.sql            # Tabla tasks + datos de ejemplo
+├── docs/consigna-TP5.pdf  # Consigna del trabajo práctico
 ├── docker-compose.yml
 └── .env.example
 ```
